@@ -15,6 +15,7 @@
 		FAA272CA1DEECC54009DA4A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA272C81DEECC54009DA4A7 /* LaunchScreen.storyboard */; };
 		FAA272D51DEECC54009DA4A7 /* HelloWordDemoOneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA272D41DEECC54009DA4A7 /* HelloWordDemoOneTests.m */; };
 		FAA272E01DEECC54009DA4A7 /* HelloWordDemoOneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA272DF1DEECC54009DA4A7 /* HelloWordDemoOneUITests.m */; };
+		FAA272EF1DEED432009DA4A7 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA272EE1DEED432009DA4A7 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		FAA272DB1DEECC54009DA4A7 /* HelloWordDemoOneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWordDemoOneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA272DF1DEECC54009DA4A7 /* HelloWordDemoOneUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWordDemoOneUITests.m; sourceTree = "<group>"; };
 		FAA272E11DEECC54009DA4A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA272ED1DEED432009DA4A7 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		FAA272EE1DEED432009DA4A7 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				FAA272BE1DEECC54009DA4A7 /* AppDelegate.m */,
 				FAA272C01DEECC54009DA4A7 /* ViewController.h */,
 				FAA272C11DEECC54009DA4A7 /* ViewController.m */,
+				FAA272ED1DEED432009DA4A7 /* Person.h */,
+				FAA272EE1DEED432009DA4A7 /* Person.m */,
 				FAA272C31DEECC54009DA4A7 /* Main.storyboard */,
 				FAA272C61DEECC54009DA4A7 /* Assets.xcassets */,
 				FAA272C81DEECC54009DA4A7 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				FAA272C21DEECC54009DA4A7 /* ViewController.m in Sources */,
 				FAA272BF1DEECC54009DA4A7 /* AppDelegate.m in Sources */,
+				FAA272EF1DEED432009DA4A7 /* Person.m in Sources */,
 				FAA272BC1DEECC54009DA4A7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +511,7 @@
 				FAA272E61DEECC54009DA4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA272E71DEECC54009DA4A7 /* Build configuration list for PBXNativeTarget "HelloWordDemoOneTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +520,7 @@
 				FAA272E91DEECC54009DA4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAA272EA1DEECC54009DA4A7 /* Build configuration list for PBXNativeTarget "HelloWordDemoOneUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				FAA272EC1DEECC54009DA4A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
